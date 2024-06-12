@@ -1,0 +1,26 @@
+body{
+    background-image: url("../Images/bg2.png");
+    background-size: cover;
+  }
+  
+  h1{
+    font-size: 450%;
+    color: #810CA8;
+  }
+  
+  h3{
+    font-size: 250%;
+    color: #13005A;
+    width: 75%;
+  }
+  
+  #lock{ display:none; }
+     @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: portrait) {
+   #lock{ display:block; }
+   #container{ display:none; }
+  }
+  @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+    #lock{ display:none; }
+   #container{ display:block; }
+  }
+  

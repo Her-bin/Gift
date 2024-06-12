@@ -1,0 +1,36 @@
+body{
+  background-image: url("../Images/bg1.png");
+  background-size: cover;
+  font-family: cursive;
+}
+
+a{
+  color: brown;
+}
+
+h1{
+  font-size: 275%;
+  margin: 0;
+}
+
+h3{
+  font-size: 225%;
+  margin: 0;
+}
+
+img{
+  margin-top: 25px;
+  width: 25%;
+  position: absolute;
+  left: 10%;
+  top: 9%;
+}
+
+ul{
+  font-size: 200%;
+  color: #000000;
+}
+
+video{
+  width: 50%;
+}
